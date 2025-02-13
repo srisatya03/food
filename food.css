@@ -1,0 +1,125 @@
+body{
+    margin: 0; 
+    font-family: sans-serif; 
+}
+nav{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: pink; 
+    padding: 10px 20px; 
+}
+nav img{ 
+    width: 50px; 
+}
+nav ul{ 
+    list-style: none; 
+    display: flex; 
+    margin: 0; padding: 0; 
+}
+nav ul li{ 
+    margin: 0 10px; 
+}
+nav ul li a, nav ul li button{ 
+    text-decoration: none; 
+    color: white; 
+    background-color: blue; 
+    border: none; 
+    padding: 8px 16px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+nav ul li a:hover, nav ul li button:hover{ 
+    background-color: #e5533c; 
+}
+section{ 
+    padding: 50px; 
+    text-align: center; 
+}
+.services-container{ 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+.service-card{ 
+    background-color: #fff3e0; 
+    padding: 20px; 
+    border-radius: 8px; 
+    width: 300px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+.contact-form{ 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+.contact-form input, .contact-form textarea{ 
+    padding: 10px; 
+    border-radius: 4px; 
+    border: 1px solid #ccc; 
+}
+.contact-form button{ 
+    padding: 10px; 
+    background-color: #ff6347; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+.contact-form button:hover{ 
+    background-color: #e5533c; 
+}
+.modal{
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5); 
+}
+.modal-content{
+    background-color: #fff;
+    margin: 15% auto; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.close-btn{
+    color: #333;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close-btn:hover{
+    color: red;
+}
+form input{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button{
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #575757;
+}
+
+
